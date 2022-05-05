@@ -4,9 +4,6 @@ const button = document.querySelector('button');
 const h1Element = document.querySelector('.adviceId');
 const h2Element = document.querySelector('.advice');
 
-window.onload = () => {
-  getData();
-};
 button.addEventListener('click', () => {
   getData();
   console.log('s');
