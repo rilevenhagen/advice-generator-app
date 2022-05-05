@@ -1,12 +1,9 @@
-console.log(`🤪 it's working 🤪`);
-// const url = 'https://api.adviceslip.com/advice';
 const button = document.querySelector('button');
 const h1Element = document.querySelector('.adviceId');
 const h2Element = document.querySelector('.advice');
 
 button.addEventListener('click', () => {
   getData();
-  console.log('s');
 });
 
 // ========get data from the API========
@@ -26,5 +23,3 @@ function getData() {
       console.log(error);
     });
 }
-
-// ================================
