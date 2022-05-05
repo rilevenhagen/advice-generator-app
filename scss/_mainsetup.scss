@@ -1,0 +1,142 @@
+//  =============== color  ===================
+
+// ### Primary
+
+$LightCyan: hsl(193, 38%, 86%);
+$NeonGreen: hsl(150, 100%, 66%);
+
+// ### Neutral
+
+$GrayishBlue: hsl(217, 19%, 38%);
+$DarkGrayishBlue: hsl(217, 19%, 24%);
+$DarkBlue: hsl(218, 23%, 16%);
+//  =============== general ===================
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 112.5%;
+  overflow-x: hidden;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+}
+body {
+  height: 100vh;
+  background-color: $DarkGrayishBlue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+//  =============== wrapper ===================
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1440px;
+  width: 95%;
+}
+//  =============== Footer ===================
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  align-items: center;
+  font-size: 1rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  div {
+    position: absolute;
+    bottom: 0;
+    p,
+    a {
+      color: LightCyan;
+      padding-right: 10px;
+      font-size: 0.7rem;
+    }
+  }
+}
+
+// ==============box======
+
+.advice {
+  font-size: 2rem;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 1rem;
+  padding: 15px;
+  margin: 0 26px;
+}
+
+h1,
+.adviceId {
+  color: LightCyan;
+  font-size: 2rem;
+  margin: 0 auto;
+}
+
+.mainContainer {
+  margin: 0 auto;
+  width: 700px;
+  height: 400px;
+  background: $GrayishBlue;
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.btn {
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  background-color: $NeonGreen;
+  text-align: center;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -26px;
+  border: $NeonGreen;
+}
+
+img {
+  padding-top: 0;
+}
+button:hover,
+button:after {
+  box-shadow: (0px 0px 20px $NeonGreen);
+}
+// .btn {
+//   a:focus {
+//     width: 45px;
+//     height: 45px;
+//   }
+// }
