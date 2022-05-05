@@ -2,6 +2,8 @@ const button = document.querySelector('button');
 const h1Element = document.querySelector('.adviceId');
 const h2Element = document.querySelector('.advice');
 
+window.onload = getData();
+
 button.addEventListener('click', () => {
   getData();
 });
@@ -9,7 +11,7 @@ button.addEventListener('click', () => {
 // ========get data from the API========
 
 function getData() {
-  fetch('https://api.adviceslip.com/advice')
+  fetch('https://api.adviceslip.com/advice', { cache: 'no-cache' })
     .then(response => {
       return response.json();
     })
