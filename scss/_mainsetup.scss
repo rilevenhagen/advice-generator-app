@@ -85,6 +85,7 @@ h2 {
   margin: 0 26px;
   color: $LightCyan;
   text-align: center;
+  font-weight: 400;
 }
 
 h1,
@@ -93,12 +94,13 @@ h1,
   font-size: 1rem;
   margin: 0 auto;
   letter-spacing: 4px;
+  font-weight: 200;
 }
 
 .mainContainer {
   margin: 0 auto;
-  width: 700px;
-  height: 400px;
+  width: 665px;
+  height: 330px;
   background: $GrayishBlue;
   border-radius: 35px;
   display: flex;
@@ -149,29 +151,23 @@ button:after {
   width: 100%;
 }
 
-.line::before {
+.divider-container::before {
   content: ' ';
   display: block;
   height: 2px;
-  width: 130px;
+  width: 40%;
   position: absolute;
   top: 50%;
-  left: 0;
-  background: red;
+  left: 30px;
+  background: $LightCyan;
 }
-.line::after {
+.divider-container::after {
   content: ' ';
   height: 2px;
-  width: 130px;
-  background: red;
+  width: 40%;
+  background: $LightCyan;
   display: block;
   position: absolute;
   top: 50%;
-  right: 0;
+  right: 30px;
 }
-// .btn {
-//   a:focus {
-//     width: 45px;
-//     height: 45px;
-//   }
-// }

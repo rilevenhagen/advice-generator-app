@@ -1,0 +1,26 @@
+@media (max-width: 375px) {
+  .wrapper {
+    max-width: 375px;
+    width: 96%;
+  }
+
+  .mainContainer {
+    width: 90%;
+  }
+
+  h1 {
+    margin: 3px auto 28px;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    margin: 1px 0px;
+  }
+
+  .divider-container::before {
+    width: 35%;
+  }
+  .divider-container::after {
+    width: 35%;
+  }
+}
