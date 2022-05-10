@@ -23,7 +23,13 @@ html {
 body {
   height: 100vh;
   background-color: $DarkGrayishBlue;
-  display: flex;
+
+}
+
+main{
+   height: 100vh;
+  background-color: $DarkBlue;
+    display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
