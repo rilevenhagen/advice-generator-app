@@ -20,9 +20,16 @@ html {
   font-family: 'Manrope', sans-serif;
   font-weight: 800;
 }
+
+
 body {
   background-color: $DarkBlue;
-  display: flex;
+  height: 100vh;
+}
+
+main {
+   background-color: $DarkGrayishBlue;
+   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
